@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Project Title</title>
+  <title>EIM:410 DHIP Joint Venture</title>
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
@@ -31,24 +31,69 @@
   <script src="./components/table-component/table-component.js"></script>
 
   <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 </head>
 
 <body>
   <div class="content">
-    <h1>Project Title</h1>
+    <div style="text-align:center; margin-top:60px; line-height:1.6; font-family:Arial, sans-serif;">
+
+        <h1 style="font-size:32px; font-weight:bold;">
+            EIM-410: D-HIP Joint Venture
+            
+        </h1>
+        <h2 style="font-size:20px; font-weight:normal; margin-top:10px;">
+            Measurement of Soft Tissue Tension in Total Knee Replacement
+        </h2>
+        
+        <h3 style="font-size:20px; font-weight:normal; margin-top:10px;">
+            (Duke-NUS Health Innovator Programme)
+        </h3>
+
+        <br><br>
+
+        <!-- Cover Page Image -->
+        <img src="fyp images/nus.jpg" 
+            alt="Cover Image"
+            style="width:300px; height:auto; display:block; margin:0 auto;">
+
+        <br>
+
+        <h2 style="font-size:26px; font-weight:bold;">
+            CDE4301A Interim Report
+        </h2>
+        <h2 style="font-size:22px; font-weight:normal;">
+            D-HIP  
+        </h2>
+        <h3 style="font-size:20px; font-weight:normal;">
+            AY 2025/26
+        </h3>
+
+        <br><br><br>
+
+        <h3 style="font-size:20px; font-weight:bold;">
+            Submitted by
+        </h3>
+        <h3 style="font-size:20px;">
+            Gore Kyra Rahul, A0266659J
+        </h3>
+    
+        <br><br>
+
+        <h3 style="font-size:20px; font-weight:bold;">
+            Supervisor
+        </h3>
+        <h3 style="font-size:20px; font-weight:bold;">
+            Dr. Mark Chong
+        </h3>
+    </div>
+
+
 
     <!-- This is the team member component use to display details about your team members -->
     <div class="team-member-wrapper">
-      <team-member avatar="assets/blackranger.png" name="Black" department="Mechanical Engineering"
-        year="1993"></team-member>
-      <team-member avatar="assets/yellowranger.png" name="Yellow" department="Computer Engineering"
-        year="1993"></team-member>
-      <team-member avatar="assets/redranger.png" name="Red" department="Electrical Engineering"
-        year="1993"></team-member>
-      <team-member avatar="assets/pinkranger.png" name="Pink" department="Biomedical Engineering"
-        year="1993"></team-member>
-      <team-member avatar="assets/blueranger.png" name="Blue" department="Chemical Engineering"
-        year="1993"></team-member>
+      <team-member avatar="assets/blackranger.jpg" name="Kyra Gore" department="Mechanical Engineering"
+        year="D-HIP"></team-member>
     </div>
 
     <!-- This is a divide from the shoelace library for aesthetic purpose -->
@@ -59,88 +104,230 @@
       <h2>Table of Contents</h2>
       <sl-tree>
         <sl-tree-item expanded>
-          <a href="#section-header-1">1. Section Header 1</a>
+          <a href="#section-header-1">1. Introduction</a>
           <sl-tree-item>
-            <a href="#sub-section-1-header-1">1.1. Sub-section Header 1</a>
+            <a href="#sub-section-1-header-1">1.1. Background</a>
           </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-1-header-2">1.2. Sub-section Header 2</a>
+          <sl-tree-item expanded>
+            <a href="#sub-section-1-header-2">1.2. Significance</a>
+            <sl-tree-item >
+              <a href="#sub-section-1-header-2-header-1">1.2.1. Clinical Significance</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#sub-sub-section-1-header-2-header-2">1.2.2. Market Significance</a>
+            </sl-tree-item>
           </sl-tree-item>
         </sl-tree-item>
 
         <sl-tree-item expanded>
-          <a href="#section-header-2">2. Section Header 1</a>
+          <a href="#section-header-2">2. Problem Clarification</a>
           <sl-tree-item>
-            <a href="#sub-section-2-header-1">2.1. Sub-section Header 1</a>
+            <a href="#sub-section-2-header-1">2.1. Clinical Challenge</a>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="#sub-section-2-header-2">2.2. Sub-section Header 2</a>
+            <a href="#sub-section-2-header-2">2.2. Review of Existing Tensioners</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-2-header-3">2.3. Interview Insights</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-2-header-4">2.4. Key Pain Points</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-2-header-5">2.5. Needs Statement</a>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="#section-header-3">3. Value Proposition</a>
+          <sl-tree-item>
+            <a href="#sub-section-3-header-1">3.1. Stakeholder Analysis</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-3-header-2">3.2. Target Customers</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-3-header-3">3.3. Value Proposition Canvas</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-3-header-4">3.4. Customer Benefits</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-3-header-5">3.5. Economic Benefits</a>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="#section-header-4">4. Design Methodology</a>
+          <sl-tree-item>
+            <a href="#sub-section-4-header-1">4.1. Must Have</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-4-header-2">4.2. Good to Have</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#sub-section-4-header-3">4.3. Concept Generation</a>
+            <sl-tree-item>
+              <a href="#sub-sub-section-4-header-3-header-1">4.3.1. Brainstorming</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#sub-sub-section-4-header-3-header-2">4.3.2. Morphological Chart</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-4-header-4">4.4. Concept Selection</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#sub-section-4-header-5">4.5. Concept Logic</a>
+            <sl-tree-item>
+              <a href="#sub-sub-section-4-header-5-header-1">4.5.1. Force-Displacement Curve (Logic 1)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#sub-sub-section-4-header-5-header-2">4.5.2. Balance Solver Method (Logic 2)</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="#section-header-5">5. Prototyping Plan</a>
+          <sl-tree-item>
+            <a href="#sub-section-5-header-1">5.1. Specifications</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-5-header-2">5.2. Design 1: Mechanical Jack with Screw</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-5-header-3">5.3. Design 2: Springs</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-5-header-4">5.4. Design 3: Inflatables</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#sub-section-5-header-5">5.5. Testing Plan and Roadmap</a>
           </sl-tree-item>
         </sl-tree-item>
 
         <sl-tree-item>
+            <a href="#section-header-6">6. Future Work</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
           <a href="#references">References</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#appendices">Appendices</a>
         </sl-tree-item>
       </sl-tree>
     </div>
     <sl-divider></sl-divider>
 
     <div>
-
       <!-- This is an example of what a section might look like -->
       <div id="section-header-1">
-        <h2> 1. Section Header 1 </h2>
+        <h2> 1. Introduction </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Tincidunt ornare massa eget egestas. At tellus at urna condimentum mattis pellentesque id nibh tortor.
-          Elementum sagittis vitae et leo duis ut diam. Morbi tristique senectus et netus et malesuada fames.
-          Suspendisse
-          ultrices gravida dictum fusce ut placerat orci. Risus nullam eget felis eget nunc lobortis mattis aliquam
-          faucibus
-          (Brody, 2007). Eget sit amet tellus cras adipiscing enim eu turpis egestas. Aliquet nibh praesent tristique
-          magna
-          sit amet purus. Adipiscing bibendum est ultricies integer quis auctor elit sed. Fermentum et sollicitudin ac
-          orci
-          phasellus egestas tellus rutrum. At in tellus integer feugiat scelerisque varius morbi enim nunc. Volutpat
-          blandit
-          aliquam etiam erat velit scelerisque in. Id diam maecenas ultricies mi eget mauris pharetra et. Nec dui nunc
-          mattis
-          enim ut tellus elementum sagittis vitae.
+          Total knee replacement (TKR), also known as total knee arthroplasty, is one of the most successful and commonly performed orthopaedic procedures worldwide. It is done to relieve pain and restore function in patients suffering from knee osteoarthritis, rheumatoid arthritis, or post traumatic joint degeneration. TKR has evolved a lot in the past years. There have been advances in implant design, surgical robots, and also navigation systems, but the end goal has always been to <strong>achieve optimal soft tissue balancing</strong> to ensure accurate and enhanced surgical outcomes. Intraoperative soft tissue tension directly influences joint kinematics, stability, and patient satisfaction, and imbalance in these tissues often leads to complications such as pain, stiffness, instability, or early implant failure.
+        </p>
+        <p>
+          Intraoperative soft tissue tension, especially in the medial collateral ligament (MCL), lateral collateral ligament (LCL), and posterior cruciate ligament (PCL), exert a lot of influence on the biomechanics of the joint, and the kinematics and longevity of the implant. When there is an imbalance present in the knee, patients may experience persistent pain, joint instability or stiffness, dissatisfaction, premature wear of the prosthetic, and early revision surgery. This is a major challenge in achieving good TKR outcomes. With hundreds of thousands of TKR procedures performed annually around the world, the clinical and economic stakes are high, thus making soft tissue balancing not just a technical nuance but a core determinant of success.
         </p>
       </div>
 
       <div id="sub-section-1-header-1">
-        <h3>1.1 Sub-section Header 1</h3>
+        <h3>1.1 Background</h3>
         <p>
-          Ultrices dui sapien eget mi. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Dolor purus non enim
-          praesent elementum facilisis. Lacus vestibulum sed arcu non odio euismod lacinia at. Metus aliquam eleifend mi
-          in nulla. Lacus sed viverra tellus in hac habitasse platea. Varius quam quisque id diam vel quam elementum
-          pulvinar. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Diam ut venenatis tellus in metus
-          vulputate. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Venenatis lectus magna
-          fringilla
-          urna. In nisl nisi scelerisque eu ultrices. Velit egestas dui id ornare arcu odio ut sem nulla. Quam id leo in
-          vitae. Egestas congue quisque egestas diam in arcu cursus euismod quis. Porttitor leo a diam sollicitudin
-          tempor
-          id eu nisl.
+          The knee is a complex join comprising of the distal femur (thigh bone), the proximal tibia (shin bone), and the patella (knee cap). The 2 main bones are the femur and tibia (as shown in image 1). They are covered by cartilage and supported by menisci. Knee stability is provided by the three main ligaments (MCL, LCL, PCL). In a healthy, non-diseased knee, these structures work together to allow flexion and extension of the knee with balanced ligament tension and proportionate load distribution <em>(MBA, 2019)</em>.
         </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component 
+              tag="image" 
+              source="fyp images/Knee-Anatomy.jpg"
+              subtitle="Image 01: Knee Anatomy"
+              style="display:block; width:330px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component 
+              tag="image" 
+              source="fyp images/KNEE.jpg"
+              subtitle="Image 02: Simplified Knee Anatomy"
+              style="display:block; width:300px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <p>
+          When degenerative disease such as osteoarthritis alters this anatomy, the knee becomes painful, stiff, deformed (varus or valgus), and mobility becomes limited. At the point where conservative therapies (medications, injections, physical therapy, and lifestyle modification) no longer provide relief, TKR becomes unavoidable.
+        </p>
+        <p>
+          TKR is most commonly performed in adults between <strong>45 and 80 years old</strong>, which is the age range in which degenerative joint disease becomes symptomatic and limits functionality. The procedure is notably more common in <strong>females</strong>, who have a higher prevalence of osteoarthritis due to anatomical, hormonal, and biomechanical factors. Additional high-risk groups include patients with <strong>diabetes, obesity, and those with a family history of osteoarthritis</strong>, all of which substantially increase cartilage degeneration and worsen joint inflammation. Patients with a history of <strong>previous knee injuries</strong>—such as ligament tears, fractures, or meniscal damage—also tend to develop earlier-onset post-traumatic arthritis, often requiring TKR at a younger age. These demographic trends highlight the broad and growing population that depends on successful knee replacement outcomes.
+        </p>
+        <image-component 
+          tag="image" 
+          source="fyp images/download (3).jfif"
+          subtitle="Image 03: Pre and Post TKR"
+          style="display:block; width:400px; height:auto; margin: 0 auto;">
+        </image-component>
+        <p>
+          The TKR procedure removes the damaged bone surfaces (as seen in Image: 03) and replaces them with prosthetic components (implants), to restore alignment and stability. These implants come in various sizes depending on the patient’s physicality and deformity severity. 
+        </p>
+        <p>
+          The basic workflow of the surgical procedure is shown below. 
+        </p>
+        <image-component tag="image" source="fyp images\TKR workflow.png"
+          subtitle="Image 04: TKR Workflow"
+          style="display:block; width:700px; height:auto; margin: 0 auto;">
+        </image-component>
       </div>
 
       <div id="sub-section-1-header-2">
-        <h3>1.2 Sub-section Header 2</h3>
+        <h3>1.2 Significance</h3>
         <p>
-          Fermentum dui faucibus in ornare quam viverra orci. Donec ultrices tincidunt arcu non sodales. A diam maecenas
-          sed enim ut sem viverra. Semper viverra nam libero justo laoreet sit. Mi sit amet mauris commodo quis. Auctor
-          augue mauris augue neque gravida in fermentum et. Auctor elit sed vulputate mi sit amet. Maecenas pharetra
-          convallis posuere morbi leo urna. Sem nulla pharetra diam sit amet nisl. Id nibh tortor id aliquet lectus.
-          Nibh
-          nisl condimentum id venenatis a condimentum vitae sapien. Convallis posuere morbi leo urna molestie at
-          elementum.
+          <strong>Soft tissue tensioning</strong> refers to the process of balancing the ligaments in the knee during TKR to ensure that the alignment outcomes post-surgery are as similar to the native knee of the patient pre-surgery. In the workflow above, steps 4, 7, and 9 aim to achieve this soft tissue balancing through knee assessment. 
         </p>
+        <p>
+          One of the most critical determinants of successful outcomes in TKR is the achievement of proper soft tissue balance. During surgery, the medial collateral ligament (MCL), lateral collateral ligament (LCL), and posterior cruciate ligament (PCL) must be tensioned appropriately to ensure joint stability and natural kinematics throughout the range of motion. However, current balancing techniques are largely subjective and rely on the surgeon’s tactile feedback and experience. This dependence introduces significant variability between surgeons and cases, contributing to inconsistent outcomes and a steep learning curve for less experienced surgeons.
+        </p>
+        <p>
+          Emerging technologies such as computer-assisted navigation and robotic systems have attempted to address this variability, yet they often lack real-time quantitative data on soft tissue tension. Consequently, there remains a pressing clinical need for an intraoperative solution that can provide objective, real-time feedback on ligament forces to help surgeons achieve personalized and reproducible soft tissue balance.
+        </p>
+      </div>
 
-        <!-- This is an example of how you might use the image component -->
-        <image-component tag="image" source="assets/requirement.png"
-          subtitle="Image 1: iDP suggested pathway"></image-component>
+      <div id="sub-sub-section-1-header-2-header-1">
+        <h3>1.2.1 Clinical Significance</h3>
+        <p>
+          The clinical significance of soft tissue balancing in TKR cannot be overstated. Surgeons currently manage knee balance by using a variety of alignment strategies:
+        </p>
+        <ul>
+          <li><strong>Mechanical alignment</strong>, aiming to restore a neutral mechanical axis of the limb, i.e., restore a straight knee with 0° deviation from the axis.</li>
+          <li><strong>Kinematic alignment</strong>, attempting to respect the patient’s native joint line and soft tissue envelope. This has proved to have the best outcomes due to the importance given to soft tissue balancing in restoring the native knee.</li>
+          <li><strong>Hybrid approaches</strong>, combining elements of both depending on patient anatomy or surgeon philosophy.</li>
+        </ul>
+        <p>
+          During surgery, knee assessment for soft tissue balancing usually involves the surgeon applying a varus-valgus stress in order to check the gaps in the medial and lateral compartment. They check the laxity in each side, and may perform some soft tissue release if they feel it is necessary. However, this process is largely based on the surgeon’s tactile experience, visual cues, and judgement, and hence experience and training is extremely important in TKR cases. 
+        </p>
+        <p>
+          Proper soft tissue balance is fundamental to <em>(Wu et al., 2025)</em>: 
+        </p>
+        <ul>
+          <li><strong>Joint stability:</strong> An unbalanced knee may feel unstable or give way during daily activities.</li>
+          <li><strong>Even load distribution:</strong> Asymmetrical loading of the implant and bone can increase wear and tear.</li>
+          <li><strong>Assess medial and lateral compartment laxities:</strong> Lateral compartment has more laxity than the medial compartment, which leads to different gap values for each compartment.</li>
+          <li><strong>Range of motion and function:</strong> Over-tight ligaments may restrict flexion, and overly lax ligaments may reduce extension or cause instability.</li>
+          <li><strong>Patient comfort and satisfaction:</strong> Many patients report dissatisfaction due to persistent pain, stiffness, or a “foreign” feeling knee even when the implant is well aligned.</li>
+          <li><strong>Long-term implant survival:</strong> Studies suggest soft tissue imbalance may account for a significant proportion of early revisions.</li>
+        </ul>
+        <p>
+          Given that 10-20 % of patients remain dissatisfied <em>(Bourne et al., 2010)</em> and many early failures may be linked to soft tissue imbalance, improving the reproducibility and quantification of soft tissue tension intra-operatively is critical for improving outcomes.
+        </p>
+      </div>
+
+      <div id="sub-sub-section-1-header-2-header-2">
+        <h3>1.2.2 Market Significance</h3>
+        <p>
+          Given the ageing global population, rising incidence of obesity, and higher functional demands of patients, the volume of TKR continues to escalate. Currently there are about 3.6 million TKR surgeries <em>(Deshpande et al., 2016)</em> done worldwide per year (Leung et al., 2018). 
+        </p>
+        <image-component tag="image" source="fyp images\TKR market.png"
+          subtitle="Image 05: TKR Market Size (World Health Organization, 2023)"
+          style="display:block; width:700px; height:auto; margin: 0 auto;">
+        </image-component>
       </div>
     </div>
 
@@ -150,71 +337,1708 @@
     <sl-divider></sl-divider>
     <div>
       <div id="section-header-2">
-        <h2>2. Section Header 2</h2>
+        <h2>2. Problem Clarification</h2>
         <p>
-          Ornare arcu dui vivamus arcu felis bibendum ut tristique et. Mi proin sed libero enim sed faucibus turpis in
-          eu. Odio ut sem nulla pharetra diam sit. Nibh cras pulvinar mattis nunc sed blandit libero. Lacus sed viverra
-          tellus in hac habitasse platea dictumst vestibulum. At augue eget arcu dictum varius duis. Mauris ultrices
-          eros in cursus turpis massa (Lindberg, 1967). Libero nunc consequat interdum varius sit amet mattis. Ut ornare
-          lectus sit amet est placerat in egestas erat. Elementum curabitur vitae nunc sed. Proin nibh nisl condimentum
-          id venenatis a condimentum vitae sapien (Chamberlin et al., 2008). Vitae tempus quam pellentesque nec nam
-          aliquam sem.
+          Despite the high procedural success and widespread adoption of TKR, the patient satisfaction rates are still considered to be significantly low. TKR is reported to have only <stong>80% satisfaction rates</stong> <em>(Bourne et al., 2010)</em>, which amounts to about 660,000 dissatisfied patients yearly. Total Hip Replacement (THR) is a surgery that is done in a very similar method to TKR, yet, the satisfaction for THR were reported to be 90%. This discrepancy occurs due to a number of factors, however, the main contributor is the challenge of intraoperative soft tissue balancing in knee replacement.
         </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\satisfaction rates.png"
+            subtitle="Image 06: TKR Satisfaction Rates"
+            style="display:block; width:210px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\satisfaction.png"
+            subtitle="Image 07: Satisfaction Rates Comparison"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <p>
+          <strong>Reasons for low satisfaction rates after TKR </strong><em>(Dhrupad Ponnamaneni et al., 2024)</em>:
+        </p>
+        <ul>
+          <li><strong>Poor knee alignment due to soft tissue imbalance:</strong> Under-tensioning or over-tensioning the ligaments leads to instability, stiffness, or unnatural knee kinematics, which makes the joint feel unstable or “not like my own.” Even small imbalances can significantly affect pain, function, and long-term implant success. (35% of total dissatisfaction cases; shown in pie chart below) <em>(Sun et al., 2022)</em></li>
+
+          <li><strong>Unrealistic expectations:</strong> Some patients anticipate a completely “normal” knee or rapid recovery, leading to disappointment when outcomes don’t match expectations. Mismatch between perceived and actual functional improvement is a major driver of dissatisfaction.</li>
+
+          <li><strong>Psychological and social factors:</strong> Anxiety, depression, low pain tolerance, or inadequate social support can negatively influence perceived recovery and overall satisfaction. These factors often magnify discomfort and slow functional progress.</li>
+
+          <li><strong>Post-surgery complications:</strong> Issues such as infection, stiffness, persistent pain, or instability reduce trust in the surgical outcome. Even minor complications can significantly lower satisfaction despite technically successful surgery.</li>
+
+          <li><strong>Post-surgery care:</strong> Incomplete rehabilitation, poor adherence to physiotherapy, or inadequate follow-up can delay functional recovery. Insufficient guidance during the recovery period often contributes more to dissatisfaction than the surgery itself.</li>
+        </ul>
+        <image-component tag="image" source="fyp images\percentage.png"
+          subtitle="Image 08: Satisfaction Rates Percentage"
+          style="display:block; width:300px; height:auto; margin: 0 auto;">
+        </image-component>
+
       </div>
 
       <div id="sub-section-2-header-1">
-        <h3>2.1. Sub-section Header 1</h3>
+        <h3>2.1. Clinical Challenge</h3>
         <p>
-          Pellentesque nec nam aliquam sem et tortor consequat. Et netus et malesuada fames ac turpis egestas maecenas.
-          Eu tincidunt tortor aliquam nulla facilisi. Nunc aliquet bibendum enim facilisis gravida. Elementum pulvinar
-          etiam non quam lacus (Moll et al., 2011; Parker & Fox, 2010). Blandit cursus risus at ultrices mi. Arcu dui
-          vivamus arcu felis bibendum ut tristique. Porttitor rhoncus dolor purus non enim praesent elementum facilisis.
-          Mauris in aliquam sem fringilla. Non quam lacus suspendisse faucibus. Tristique senectus et netus et malesuada
-          fames ac. <a href="#image">Link to the image above</a>
+          It has been established that the main reason for dissatisfaction is <strong>improper soft tissue balancing during surgery</strong>.
+          This implies that the current surgical procedure has some major shortcomings.
         </p>
 
-        <!-- This is an example of how you might use the video component -->
-        <video-component tag="rick" source="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          subtitle="Video: Never gonna give you up?"></video-component>
+        <p><strong>Issues with current TKR procedure:</strong></p>
+
+        <ul>
+          <li><strong>Knee assessment is very surgeon-guided and subjective </strong><em>(Corbett et al., 2025)</em>:
+            <ul>
+              <li>Soft tissue balancing relies heavily on a surgeon’s tactile experience, visual inspection, and “feel,” leading to significant variability between surgeons.</li>
+              <li><strong>Different surgeons apply different magnitudes of force when testing ligament tension</strong>, making outcomes inconsistent and difficult to standardize.</li>
+              <li>Even within the same surgeon, force application can vary across procedures due to fatigue, perception, or intraoperative conditions.</li>
+            </ul>
+            <br>
+            <image-component tag="image" source="fyp images\force.png"
+              subtitle="Image 09: Different Surgeon Forces"
+              style="display:block; width:500px; height:auto; margin: 0 auto;">
+            </image-component>
+          </li>
+          <br>
+          <li><strong>No personalised system to determine the ideal force:</strong>
+            <ul>
+              <li><strong>Every patient’s knee ligament stiffness is unique, and thus the ideal amount of force applied to every knee is also unique.</strong></li>
+              <li>There cannot be one force value that can be applied to every knee; a personalised system is required to determine each patient’s “ideal force.”</li>
+            </ul>
+            <br>
+            <image-component tag="image" source="fyp images\forces.png"
+              subtitle="Image 10: Different Patient's Knee Forces"
+              style="display:block; width:600px; height:auto; margin: 0 auto;">
+            </image-component>
+          </li>
+          <br>
+          <li><strong>No measurable and reproducible force applied during gap assessment:</strong>
+            <ul>
+              <li>Manual force application creates wide variability in measured gaps. The same knee may appear “balanced” or “unbalanced” depending on the force used.</li>
+              <li>Without objective force control, surgeons cannot reliably reproduce the same conditions across the extension and flexion arcs or between knees.</li>
+            </ul>
+          </li>
+
+          <li><strong>Existing tensioner devices disrupt workflow and lack compatibility:</strong>
+            <ul>
+              <li>They add additional steps to the workflow, which is inconvenient for the surgeon.</li>
+              <li>Digital tensioning devices available today are typically tied to specific robotic or navigation platforms, limiting their use to certain systems and institutions.</li>
+            </ul>
+          </li>
+        </ul>
       </div>
 
       <div id="sub-section-2-header-2">
-        <h3>2.2. Sub-section Header 2</h3>
+        <h3>2.2. Review of Existing Tensioners</h3>
         <p>
-          Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Dignissim convallis aenean et tortor at
-          risus viverra adipiscing. Facilisi nullam vehicula ipsum a arcu cursus. Adipiscing elit pellentesque
-          habitant
-          morbi tristique senectus et netus. Turpis massa tincidunt dui ut ornare lectus. Suspendisse sed nisi lacus
-          sed. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Ut ornare lectus sit amet est
-          placerat in egestas. Magna fringilla urna porttitor rhoncus. Imperdiet dui accumsan sit amet.
+          To identify areas for improvement in current soft-tissue balancing and tensioning devices used in Total Knee Replacement (TKR), a review of existing tools and technologies was conducted.
+          The goal was to evaluate their functionality, accuracy, usability, and ability to deliver personalised, reproducible soft-tissue balance.
         </p>
 
-        <!-- This is an example of how you might use the table component -->
-        <table-component subtitle="Table: Demo table">
-          <div id="table-1"></div>
-        </table-component>
+        <p>
+          The findings reveal that while multiple solutions exist across manual, mechanical, sensor-based, and robotic categories, none fully address the need for real-time, patient-specific ligament tension measurement before bone cuts.
+        </p>
+
+        <p><strong>The existing tensioners can be broadly classified into 3 main categories</strong> <em>(Wu et al., 2025)</em>:</p>
+
+        <ol>
+          <li>Manual and Mechanical Tensioners</li>
+          <br>
+          <image-component tag="image" source="fyp images\competitor1.png"
+            subtitle="Image 11: Manual and Mechanical Tensioners"
+            style="display:block; width:600px; height:auto; margin: 0 auto;">
+          </image-component>
+          <br>
+          <li>Passive Digital Tensioners / Load Sensors</li>
+          <br>
+          <image-component tag="image" source="fyp images\competitor2.png"
+            subtitle="Image 12: Passive Digital Tensioners/ Load Sensors"
+            style="display:block; width:600px; height:auto; margin: 0 auto;">
+          </image-component>
+          <br>
+          <li>Active Digital Tensioners</li>
+          <br>
+          <image-component tag="image" source="fyp images\competitor3.png"
+            subtitle="Image 13: Active Digital Tensioners"
+            style="display:block; width:600px; height:auto; margin: 0 auto;">
+          </image-component>
+        </ol>
+        <p>
+          The table below shows a detailed analysis of each <em>(Wu et al., 2025)</em>.
+        </p>
+
+        <table border="1" cellspacing="0" cellpadding="6">
+          <thead>
+            <tr>
+              <th>Solution</th>
+              <th>Mechanism</th>
+              <th>Examples</th>
+              <th>Cost per patient</th>
+              <th>Strengths</th>
+              <th>Weaknesses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Manual and Mechanical Tensioners</td>
+              <td>Applies fixed force across 2 points in the joint</td>
+              <td>Spacer blocks, Lamina spreaders</td>
+              <td>Minimal (&lt;$100 USD/patient as reusable)</td>
+              <td>Produces gap, less subjective, simple, intuitive, fast, cheap, reusable</td>
+              <td>No force measurement, no measuring of inter-compartmental loads, increased workflow complexity, added instrumentation, low sensitivity, no personalised force, static conditions only</td>
+            </tr>
+
+            <tr>
+              <td>Passive Digital Tensioners / Load Sensors</td>
+              <td>Sensor-equipped instruments which passively measure forces in the joint. Force is applied by the surgeon</td>
+              <td>e-Knee system, eLIBRA, Verasense</td>
+              <td>$500 USD</td>
+              <td>Force measurement, accurate, real-time, precise, sensitive</td>
+              <td>No feedback system for personalisation, expensive, complex, not easily implementable</td>
+            </tr>
+
+            <tr>
+              <td>Active Digital Tensioners</td>
+              <td>Devices actively apply controlled force and measure gaps</td>
+              <td>BalanceBot, CORI Digital Tensioner, Newton Balanced Knee System</td>
+              <td>$1000 USD</td>
+              <td>Force applied and measured, real-time data, integration into robotic systems, reduced variability, better planning</td>
+              <td>Expensive, low accessibility, limited long-term data, no tension-guided force, no personalisation, some provide compartmentalised force only</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <style>
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+          }
+          th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+          }
+          th {
+            background: #f2f2f2;
+          }
+          .low {
+            background-color: #ff9999; /* red */
+          }
+          .medium {
+            background-color: #fff599; /* yellow */
+          }
+          .high {
+            background-color: #b6f2a6; /* green */
+          }
+        </style>
+        <br>
+        <p>
+          The next table gives a comparitive analysis of these 3 competitors based on the important features of a tensioner device <em>(Wu et al., 2025)</em>.
+        </p>
+        <p>
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Manual/ Mechanical Tensioners</th>
+                <th>Active Digital Tensioners</th>
+                <th>Passive Digital Tensioners/ Load Sensors</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Native ligament tension measurement</td>
+                <td class="low">Low</td>
+                <td class="high">High</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Personalised force</td>
+                <td class="low">Low</td>
+                <td class="low">Low</td>
+                <td class="low">Low</td>
+              </tr>
+              <tr>
+                <td>Feedback system</td>
+                <td class="low">Low</td>
+                <td class="medium">Medium</td>
+                <td class="low">Low</td>
+              </tr>
+              <tr>
+                <td>Reproducible force</td>
+                <td class="high">High</td>
+                <td class="high">High</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Force quantification</td>
+                <td class="low">Low</td>
+                <td class="high">High</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Compartmentalised force measurement</td>
+                <td class="low">Low</td>
+                <td class="high">High</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Add less than 10 mins to workflow</td>
+                <td class="high">High</td>
+                <td class="high">High</td>
+                <td class="high">High</td>
+              </tr>
+              <tr>
+                <td>Ease of use</td>
+                <td class="high">High</td>
+                <td class="low">Low</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Ergonomic</td>
+                <td class="medium">Medium</td>
+                <td class="medium">Medium</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Affordability</td>
+                <td class="high">High</td>
+                <td class="low">Low</td>
+                <td class="medium">Medium</td>
+              </tr>
+              <tr>
+                <td>Agnostic</td>
+                <td class="high">High</td>
+                <td class="low">Low</td>
+                <td class="low">Low</td>
+              </tr>
+              <tr>
+                <td>Improved satisfaction rates</td>
+                <td class="medium">Medium</td>
+                <td class="medium">Medium</td>
+                <td class="medium">Medium</td>
+              </tr>
+            </tbody>
+          </table>
+        </p>
+
+        <section id="market-opportunity">
+          <h3>Market Opportunity for Tensioners</h3>
+
+          <p>
+            Starting from <strong>3.6 million</strong> knee replacements globally each year, a device priced at
+            <strong>US $350 (S$500)</strong> represents a <strong>TAM of US $1.26 billion</strong>.
+          </p>
+          <p> ($350 is used as an approximation for a successful TKR tensioner since the cost of the device should not exceed 5% of the total surgery cost)</p>
+          <p><em>(The Global Knee Market: Insights and Projections for 2024 and beyond - Life Science Intelligence, 2024)</em></p>
+          <p>
+            Focusing on developed orthopaedic markets (≈ <strong>60%</strong>), the <strong>SAM is US $756 million</strong>.
+          </p>  
+          <p>
+            Achieving <strong>3–8%</strong> adoption within 5 years yields a <strong>SOM of US $23–61 million</strong> annually,
+            aligned with early-stage med-tech diffusion curves for intraoperative assistive tools.
+          </p>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; text-align: left;">
+            <thead>
+              <tr style="background: #f2f2f2;">
+                <th>Layer</th>
+                <th>Definition</th>
+                <th>Calculation</th>
+                <th>Procedures / yr</th>
+                <th>Market Value (@ US $350)</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td><strong>TAM — Total Addressable Market</strong></td>
+                <td>All TKR procedures worldwide</td>
+                <td>3.6 M × $350</td>
+                <td>3.6 M</td>
+                <td>US $1.26 B</td>
+              </tr>
+
+              <tr>
+                <td><strong>SAM — Serviceable Available Market</strong></td>
+                <td>Developed regions (≈ 60% of global volume: US, EU, advanced APAC)</td>
+                <td>3.6 M × 0.6 × $350</td>
+                <td>2.16 M</td>
+                <td>US $756 M</td>
+              </tr>
+
+              <tr>
+                <td><strong>SOM — Serviceable Obtainable Market</strong></td>
+                <td>Realistic 5-yr adoption (3–8% of SAM)</td>
+                <td>2.16 M × 0.03–0.08 × $350</td>
+                <td>65 k–173 k</td>
+                <td>US $23–61 M / yr</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            The table below gives the market shares of each tensioner category based on adoption.
+            It is clear from the table that the most widely used method is still “by feel”, 
+            but the other tensioners are also quite widespread. <em>(Park & Song, 2021)(Wu et al., 2025)(Schmerler et al., 2025)</em>
+          </p>
+
+          <table style="width:100%; border-collapse:collapse; margin-top:10px;">
+            <thead>
+              <tr style="background-color:#f2f2f2; text-align:left;">
+                <th style="padding:8px; border:1px solid #ccc;">Category</th>
+                <th style="padding:8px; border:1px solid #ccc;">Estimated Share / Adoption</th>
+                <th style="padding:8px; border:1px solid #ccc;">Estimated TKRs / year</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td style="padding:8px; border:1px solid #ccc;">By Feel (No Device)</td>
+                <td style="padding:8px; border:1px solid #ccc;">~70% (majority)</td>
+                <td style="padding:8px; border:1px solid #ccc;">~2,520,000</td>
+              </tr>
+
+              <tr>
+                <td style="padding:8px; border:1px solid #ccc;">Manual & Mechanical Tensioners</td>
+                <td style="padding:8px; border:1px solid #ccc;">~13%</td>
+                <td style="padding:8px; border:1px solid #ccc;">~468,000</td>
+              </tr>
+
+              <tr>
+                <td style="padding:8px; border:1px solid #ccc;">Passive Digital Tensioners / Load Sensors</td>
+                <td style="padding:8px; border:1px solid #ccc;">~8%</td>
+                <td style="padding:8px; border:1px solid #ccc;">~288,000</td>
+              </tr>
+
+              <tr>
+                <td style="padding:8px; border:1px solid #ccc;">Active Digital Tensioners / Robotic-based</td>
+                <td style="padding:8px; border:1px solid #ccc;">~6–18%</td>
+                <td style="padding:8px; border:1px solid #ccc;">~216,000</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </section>
+      </div>
+    
+      <br>
+      <div id="sub-section-2-header-3">
+        <h3>2.3. Interview Insights</h3>
+        <p>
+          We conducted <strong>35 interviews</strong> with orthopaedic surgeons and industry professionals, and there was strong consensus across most responses.
+          We asked questions to gain insights on soft tissue balancing and personalised force in gap assessment. Most surgeons agreed that achieving proper
+          soft tissue balance remains one of the most <strong>subjective and variable</strong> aspects of TKR.
+        </p>
+
+        <p>
+          All surgeons acknowledged that <strong>balanced ligaments</strong> are critical for joint stability and patient satisfaction. However, there is
+          currently <strong>no standardized method</strong> for quantifying soft tissue tension intra-operatively. Most rely on tactile “feel,” visual cues,
+          and personal experience to judge when tension is “just right.” They emphasized that this feel-based method causes significant <strong>variability in outcomes</strong>.
+        </p>
+
+        <p>
+          The surgeons used different alignment approaches — mechanical alignment, kinematic alignment, or
+          hybrid alignment — depending on patient anatomy and case complexity. Several surgeons noted that <strong>poor soft tissue balancing</strong>,
+          rather than misalignment alone, is a major cause of postoperative stiffness, instability, and patient dissatisfaction. Most preferred
+          <strong>robotic TKR</strong> over conventional TKR due to improved accuracy and faster surgeries.
+        </p>
+
+        <p>
+          When asked about balance assessment tools, most surgeons still rely on conventional instruments such as laminar spreaders,
+          spacer blocks, and gap balancers, while only a few use force sensors or digital tensioners. All interviewees agreed
+          that there is currently <strong>no gold standard</strong> for measuring ligament tension intra-operatively.
+        </p>
+
+        <p>
+          Several expressed interest in a <strong>quantitative, real-time feedback system</strong> to improve reproducibility, though others cautioned that
+          soft tissue balance is inherently patient- and surgeon-specific. However, the consensus was that if a device could <strong>quantify varus–valgus force</strong>,
+          it would not only improve patient satisfaction but also <strong>reduce the learning curve</strong> for junior surgeons through increased standardization.
+        </p>
+
+        <p>
+          Shown below are some of the question outcomes from our survey.
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\interview1.png"
+            subtitle="Image 14: Insight 1"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\interview2.png"
+            subtitle="Image 15: Insight 2"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <br>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\interview3.png"
+            subtitle="Image 16: Insight 3"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\interview4.png"
+            subtitle="Image 17: Insight 4"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <br>
+          <image-component tag="image" source="fyp images\interview5.png"
+            subtitle="Image 18: Insight 5"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        
+      </div>
+
+      <div id="sub-section-2-header-4">
+        <h3>2.4. Key Pain Points</h3>
+        <p>
+          Based on our interview and survey findings, we narrowed down the problem to the following pain points for surgeons:
+        </p>
+
+        <ol>
+          <li>
+            <strong>No personalised force:</strong> This was a major concern across most surgeons. Every patient's knee is different, and every surgeon applies a different force when assessing knee gaps.
+            Currently, no one knows the <em>“ideal force”</em> for each knee. This <strong>“ideal force” is patient specific</strong>, and varies based on the patient's BMI and deformity severity. There is no current way to know or measure this personalized force. 
+          </li>
+
+          <li>
+            <strong>Lack of objectivity:</strong> Surgeons’ body type and strength vary, so the force applied during gap assessment is inconsistent. For example, a petite surgeon may apply less force than a larger surgeon. Force is currently based on “feel,” and standardizing it is necessary for consistency in gap assessment.
+          </li>
+
+          <li>
+            <strong>Lack of replicability:</strong> No device currently enables reproducible force application. Once the force is objectified based on patient specificity, it can be consistently replicated when testing implants. This reproducible force will better mimic the native knee environment before bone cuts and enable improved gap balancing.
+          </li>
+
+          <li>
+            <strong>Low patient satisfaction:</strong> Satisfaction for Total Hip Replacement is 90%, while Total Knee Replacement is only 80%. Surgeons believe improving soft tissue balancing can help increase satisfaction rates.
+          </li>
+
+          <li>
+            <strong>Long training hours:</strong> Measuring soft tissue tension could reduce the learning curve for junior surgeons performing TKR, allowing them to learn faster and more consistently.
+          </li>
+        </ol>
+        <image-component tag="image" source="fyp images\root tree analysis.png"
+          subtitle="Image 19: Root Tree Analysis"
+          style="display:block; width:900px; height:auto; margin: 0 auto;">
+        </image-component>
+      </div>
+
+      <div id="sub-section-2-header-5">
+        <h3>2.5 Needs Statement</h3>
+        <p>
+          After analysing the problem, our project aims:
+        </p>
+
+        <p>
+          To develop a method to produce a <strong>personalised gap (±0.5 mm)</strong> intra-operatively during primary Total Knee Replacement,
+          based on native lateral and medial cruciate ligament tension (<strong>50–250N</strong>), empowering surgeons to achieve
+          <strong>reproducible balance</strong>, allowing junior surgeons to shorten their learning curve, and enabling patients to experience
+          more <strong>natural alignment</strong>, thereby improving <strong>patient satisfaction (90%)</strong>.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <sl-divider></sl-divider>
+    <div>
+      <div id="section-header-3">
+        <h3>3. Value Proposition</h3>
+        <p>
+          Our device offers a unique, <strong>data-driven approach to soft tissue balancing</strong> in Total Knee Replacement, providing surgeons with <strong>quantitative measurements</strong> of the force experienced by the joint during gap assessment rather than relying on subjective feel or visual cues. This enables <strong>personalized, reproducible knee balance</strong> tailored to each patient’s native anatomy—something existing tensioners and spacer blocks cannot achieve. By integrating seamlessly into both manual and robotic workflows, it empowers surgeons of all experience levels to achieve consistent, high-quality outcomes, <strong> variability, shortening the learning curve, and driving patient satisfaction to 90%.</strong>
+        </p>
+      </div>
+
+      <div id="sub-section-3-header-1">
+        <h2>3.1. Stakeholder Analysis</h2>
+        <p>
+          To understand the potential adoption pathway of our device, it is important to identify all the stakeholders involved in the decision making, evaluation, and use of the device. The table below summarises the main stakeholder groups and their roles within the healthcare system
+        </p>
+        <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; text-align: left;">
+          <thead>
+            <tr style="background: #f2f2f2;">
+              <th>Economic Buyers</th>
+              <th>Clinical Champions</th>
+              <th>End Users</th>
+              <th>Gatekeepers</th>
+              <th>Beneficiaries</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>MOH</li>
+                  <li>Hospital/Cluster HQ</li>
+                  <li>Hospital value assessment committee</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Head of orthopaedics department</li>
+                  <li>Leading surgeons in the field</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Surgeons</li>
+                  <li>Vendors (if part of a robotic system)</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Finance/procurement teams</li>
+                  <li>HSA</li>
+                  <li>MOH regulations (ACE)</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Patients</li>
+                  <li>Vendors (if part of a robotic system)</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          While the above categorisation provides a clear view of who the core stakeholders are, a deeper analysis is necessary to understand their motivations, influence, and value drivers. Each group interacts with the TKR workflow differently and prioritises distinct clinical, economic, or regulatory outcomes. The following matrix expands on these roles.
+        </p>
+
+        <style>
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: left;
+          }
+
+          th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            vertical-align: top;
+          }
+
+          th {
+            background: #f2f2f2;
+          }
+
+          .high {
+            background-color: #b6f2a6; /* green */
+          }
+
+          .medium {
+            background-color: #fff599; /* yellow */
+          }
+
+          .low {
+            background-color: #ff9999; /* red */
+          }
+        </style>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Stakeholder</th>
+              <th>Role</th>
+              <th>Value</th>
+              <th>Influence on Purchase</th>
+              <th>Influence on Usage</th>
+              <th>Influence on Policy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ACE (MOH)</td>
+              <td>National Payer / Policy Gatekeeper</td>
+              <td>Cost-Effectiveness, Budget Impact</td>
+              <td class="high">High</td>
+              <td class="medium">Medium</td>
+              <td class="high">High</td>
+            </tr>
+            <tr>
+              <td>Value Assessment Committee (VAC)</td>
+              <td>Institutional Economic Buyer</td>
+              <td>Value-for-Money, Total Cost of Ownership</td>
+              <td class="high">High</td>
+              <td class="medium">Medium</td>
+              <td class="low">Low</td>
+            </tr>
+            <tr>
+              <td>Clinical Champion (Head of Dept.)</td>
+              <td>Influencer & Champion</td>
+              <td>Clinical Superiority, Patient Outcomes</td>
+              <td class="high">High</td>
+              <td class="high">High</td>
+              <td class="low">Low</td>
+            </tr>
+            <tr>
+              <td>Ministry of Health (MOH) / Cluster HQ</td>
+              <td>System Payer & Strategist</td>
+              <td>System Efficiency, Standardization</td>
+              <td class="medium">Medium</td>
+              <td class="low">Low</td>
+              <td class="high">High</td>
+            </tr>
+            <tr>
+              <td>Health Sciences Authority (HSA)</td>
+              <td>Regulatory Gatekeeper</td>
+              <td>Safety, Efficacy, Compliance</td>
+              <td class="high">High (Approval)</td>
+              <td class="low">Low</td>
+              <td class="medium">Medium</td>
+            </tr>
+            <tr>
+              <td>Surgeon (End User)</td>
+              <td>End User</td>
+              <td>Ease of Use, Procedural Efficiency</td>
+              <td class="high">High</td>
+              <td class="high">High</td>
+              <td class="high">High</td>
+            </tr>
+            <tr>
+              <td>Finance / Procurement</td>
+              <td>Procurement Gatekeeper</td>
+              <td>Price, Contract Terms</td>
+              <td class="medium">Medium</td>
+              <td class="low">Low</td>
+              <td class="low">Low</td>
+            </tr>
+            <tr>
+              <td>Vendor</td>
+              <td>Implementation Partner</td>
+              <td>Training, Technical Support</td>
+              <td class="high">High</td>
+              <td class="medium">Medium</td>
+              <td class="low">Low</td>
+            </tr>
+            <tr>
+              <td>Patient</td>
+              <td>Beneficiary & Influencer</td>
+              <td>Quality of Life, Out-of-Pocket Cost</td>
+              <td class="low">Low</td>
+              <td class="high">High (Adherence)</td>
+              <td class="low">Low</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          To further contextualise the importance of these stakeholders, it is important to visualise the relative influence each group has across the surgical innovation pathway. The below image emphasises that the <strong>surgeon</strong> is the main stakeholder, and the one who will have the most influence over our device.
+        </p>
+        <image-component tag="image" source="fyp images\stakeholders.png"
+          subtitle="Image 20: Stakeholders">
+        </image-component>
+      </div>
+
+      <div id="sub-section-3-header-2">
+        <h2>3.2. Target Customers</h2>
+        <p>
+          The primary users of this intraoperative ligament tension measurement device are orthopaedic surgeons performing total knee replacements (TKR). These surgeons directly interact with the device during surgery to achieve precise, personalised soft-tissue balance.
+        </p>
+        <p>
+          Secondary stakeholders — such as hospitals (buyers, procurement decision-makers) and patients (beneficiaries of improved outcomes) — influence adoption indirectly through purchasing and clinical outcomes data.
+        </p>
+        <p>
+          The surgeon market can be further segmented by current balancing practice and robotic system usage, identifying where unmet needs and adoption potential are highest.
+        </p>
+        <p>The table below explains that surgeons who do not use tensioners but use robotic systems fall under the category of non users. Yet, they are part of our targe audience since our device will convince them to start using tensioners when it proves to produce better soft tssue balancing. </p>
+        <image-component tag="image" source="fyp images\customers.png"
+          subtitle="Image 21: Customer Matrix">
+        </image-component>
+        <p>
+          The largest and easiest-convertible opportunity lies among surgeons already familiar with mechanical tensioners (≈ 15–20 % of global TKR surgeons) and those using robotic systems seeking better intraoperative balance quantification. These groups combine high clinical awareness, economic feasibility, and early-adopter openness.
+        </p>
+      </div>
+
+      <div id="sub-section-3-header-3">
+        <h2>3.3. Value Proposition Canvas</h2>
+        <p>The image below summarises the Pains and Gains experienced by the surgeons performing TKR, and also the Jobs To Be Done by our device</p>
+        <image-component tag="image" source="fyp images\Value prop canvas.png"
+          subtitle="Image 22: Pains, Gains, JTBD">
+        </image-component>
+      </div>
+
+      <div id="sub-section-3-header-43">
+        <h2>3.4. Customer benefits</h2>
+        <ul>
+          <li><strong>Improved Surgical Outcomes (Higher Patient Satisfaction Rates):</strong> Improves patient outcomes by enabling precise, personalized knee balancing, leading to better joint stability and natural movement.</li>
+
+          <li><strong>Enhanced Surgical Accuracy:</strong> Provides objective, real-time ligament tension data to guide intraoperative decisions.</li>
+
+          <li><strong>Reduced Learning Curve:</strong> Simplifies soft tissue balancing for junior surgeons, promoting consistency across all experience levels.</li>
+
+          <li><strong>Measurement Pre-Bone Cut:</strong> Force measurement pre-bone cut is essential for effective gap balancing, providing valuable insights for the angle and dimensions of the cuts and implants chosen.</li>
+
+          <li><strong>Agnostic Device:</strong> Compatible with both manual and robotic TKR systems, requiring minimal workflow disruption.</li>
+
+          <li><strong>Time and Cost Efficiency:</strong> Minimizes the need for postoperative adjustments and revisions, reducing overall treatment costs.</li>
+
+          <li><strong>Data-Driven Confidence:</strong> Offers quantifiable feedback, helping surgeons document and reproduce optimal surgical outcomes.</li>
+        </ul>
+      </div>
+
+      <div id="sub-section-3-header-5">
+        <h2>3.5. Economic Benefits</h2>
+        <p>
+          The device enhances surgical precision and reduces complications, cutting 15–20% of follow-up care costs.
+          By shortening the learning curve and streamlining intraoperative decisions, it lowers training time.
+          Improved reproducibility and patient satisfaction boost hospital reputation and case volume, delivering a strong ROI within the first year.
+          Overall, it drives <strong>financial efficiency</strong> and elevates <strong>surgical outcomes</strong>.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <sl-divider></sl-divider>
+    <div>
+      <div id="section-header-4">
+        <h2>4. Design Methodology</h2>
+      </div>
+
+      <div id="sub-section-4-header-1">
+        <h2>4.1. Must Have</h2>
+        <p> After creating the Jobs to be Done, we came up with 5 need criteria's that our device must have. The table below summarises these criteria.</p>
+        <image-component tag="image" source="fyp images\must have.png"
+          subtitle="Image 23: Must Have's">
+        </image-component>
+      </div>
+
+      <div id="sub-section-4-header-2">
+        <h2>4.2. Good to Have</h2>
+        <p> In addition to the must have criteria above, we also narrowed done some more features that our device can have. These are mentioned in more detail in the table below.</p>
+        <image-component tag="image" source="fyp images\could have.png"
+          subtitle="Image 24: Good to Have's">
+        </image-component>
+      </div>
+
+      <div id="sub-section-4-header-3">
+        <h2>4.3. Concept Generation</h2>
+        <p>
+          To address the clinical challenges identified earlier—especially the lack of objective, reproducible, and personalised soft-tissue tensioning in TKR—we explored a range of potential solution directions. The concept generation phase involved systematically expanding the design space before narrowing down to feasible ideas. This ensured that the concept we selected is grounded in clinical needs, workflow constraints, and engineering practicality.
+        </p>
+      </div>
+
+      <div id="sub-sub-section-4-header-3-header-1">
+        <h2>4.3.1. Brainstorming</h2>
+        <p>
+          Brainstorming was used as the initial step to generate a broad set of ideas without constraints. We explored different ways to measure, control, or assist soft-tissue balancing during TKR. Ideas ranged from purely mechanical tools to sensor-integrated devices and digitally assisted systems that could provide objective force feedback to surgeons. At this stage, all ideas were captured to encourage creativity and to avoid prematurely narrowing the solution space. We used frameworks like SCAMPER and Brutethink to encourage out of the box ideas. 
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\bst1.jpg"
+            subtitle="Image 25: Brainstorming 1"
+            style="display:block; width:430px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\bst2.jpg"
+            subtitle="Image 26: Brainstorming 2"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\bst3.jpg"
+            subtitle="Image 27: Brainstorming 3"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <br>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\brutethink.jpg"
+            subtitle="Image 28: Brutethink"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\scamper.jpg"
+            subtitle="Image 29: SCAMPER"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+      </div>
+
+      <div id="sub-sub-section-4-header-3-header-2">
+        <h2>4.3.2. Morphological Chart</h2>
+        <p>
+          A morphological chart was created to break the problem into key functional components. For each function, multiple potential solutions were listed, allowing different combinations to be explored. This systematic method helped ensure that all possible configurations were considered. The chart is shown below. The pink, purple, and orange boxes show different concept combinations. 
+        </p>
+        <image-component tag="image" source="fyp images\morphological chart.png"
+          subtitle="Image 30: Morphological Chart">
+        </image-component>
+      </div>
+
+      <div id="sub-section-4-header-4">
+        <h2>4.4. Concept Selection</h2>
+        <p>
+          After generating multiple solution principles for each functional requirement, we narrowed down the concepts into 3 categories, namely - spring mechanism, inflatable mechanism, and mechanical jack mechanism. 
+        </p>
+        <p>
+          We then used the Need Criteria Evaluation Matrix and the Pugh Matrix for concept screening to come up with 1 final concept. 
+        </p>
+        <image-component tag="image" source="fyp images\concept eval matrix.png"
+          subtitle="Image 31: Need's Criteria Evaluation Matrix (Concept Screening)">
+        </image-component>
+        <br>
+        <image-component tag="image" source="fyp images\pugh matrix.png"
+          subtitle="Image 32: Pugh Matrix">
+        </image-component>
+        <p>
+          The highest scoring concept was the one that involved the <strong>mechanical jack system</strong> because of its ease of measuring
+          the force and displacement using a screw jack system.
+        </p>
+
+        <p>Given below is an overview of the selected concept:</p>
+
+        <p>
+          <strong>Screw displacement + Force sensor + Mechanical jack mechanism + Vibration + Force displacement curve</strong>
+        </p>
+      </div>
+
+      <div id="sub-section-4-header-5">
+        <h2>4.5. Concept Logic</h2>
+        <p>
+          Through all the concepts shown above, although there are many possible embodiments for the different functional requirements, this section focuses more on the “algorithm” functional requirement to better understand the logic that our device follows. We established that there are 3 main requirements: measure force, measure displacement, cue the surgeon when ideal force has been reached. In order to do this, we have two ideas as explained below.
+      </div>
+
+      <div id="sub-sub-section-4-header-5-header-1">
+        <h2>4.5.1. Force Displacement Curve (Logic 1)</h2>
+        <p>
+          This concept works on the basis of a force-displacement curve. Ligaments in the knee behave like elastic materials, meaning they stretch under load and follow predictable elastic behaviour until they reach a point of yielding. When a ligament is gradually tensioned, the relationship between the applied force and the resulting displacement forms a <strong>force–displacement curve</strong>. In the early region of the curve, the ligament stretches elastically, and force increases gradually with displacement. As the ligament approaches its elastic limit, the curve begins to flatten, leading to a <strong>point of inflection</strong>, also known as the<strong> yielding point</strong>. Beyond this point, the ligament enters the plastic region where permanent damage or over-stretching can occur <em>(Chantarapanich Beng et al., 2009)</em>.
+        </p>
+        <image-component tag="image" source="fyp images\forc disp curve.png"
+          subtitle="Image 33: Force Displacement Curve"
+          style="display:block; width:400px; height:auto; margin: 0 auto;">
+        </image-component>
+        <p>
+          The goal of soft-tissue balancing is to tension the ligaments safely within their elastic region, without allowing the surgeon to approach or exceed the yielding point. The “ideal force” to be applied by a surgeon is considered to be approximately 10% before the yielding point force. This ensures that the ligament is sufficiently tensioned for stability, but not overstressed. When the surgeon reaches this optimal force threshold, the device will provide an immediate signal to stop applying additional force.
+        </p>
+        <p>
+          Since ligament stiffness and elasticity vary widely between individuals <em>(Readioff et al., 2020)</em>, the force–displacement curve will be different for every patient. By measuring both force and displacement intra-operatively, our device can generate each patient’s personalised curve in real time. This creates a <strong>customised, objective feedback system</strong> that guides the surgeon to the optimal tension unique to that patient, improving precision and reducing risks associated with over- or under-tensioning.
+        </p>
+        <p>However, this method has some <strong>risks and concerns</strong>:</p>
+
+        <ul>
+          <li>
+            Due to the complex biomechanics of the knee, the graph will not be perfectly linear before the point of inflection.
+            How do we go about finding the yield point if the slope is changing even before the point of inflection? <em>(Buhary et al., 2019)</em>
+          </li>
+          <li>
+            In order to know the force value 10% before the yielding point, we need to know the yielding point.
+            However, if the force reaches the yielding point that would mean the ligament has already crossed its maximum limit.
+            Is this damage significant?
+          </li>
+          <li>
+            We have some preliminary answers based on surgeon feedback, which suggests that it is acceptable to go just beyond the yield point
+            because it is considered very mild damage. This is something we hope to investigate further before reaching a proper conclusion.
+          </li>
+        </ul>
+      </div>
+
+      <div id="sub-sub-section-4-header-5-header-2">
+        <h2>4.5.2. Balance Solver Method (Logic 2)</h2>
+        <p>
+          Another method we explored for determining the optimal soft-tissue tension is the <strong>Balance Solver Method</strong>,
+          which leverages the elastic behaviour of ligaments under loading. When a controlled force is applied to a ligament, it elongates,
+          but once the force is removed, the ligament returns to its original length — as long as the force remains within the elastic region.
+          This reversible stretch continues until the ligament approaches its<strong> yielding point</strong>.
+        </p>
+
+        <p>
+          However, when the applied force <strong>exceeds</strong> this yielding point, the ligament enters the plastic region. In this region, the tissue
+          does not fully return to its original length after the force is released, indicating a small but measurable amount of permanent stretch.
+          This irreversible change becomes a useful marker: it reveals that the applied force has crossed the safe limit for that ligament.
+        </p>
+
+        <p>
+          The Balance Solver Method uses this principle by incrementally applying tension and then releasing it to observe whether the ligament
+          fully recoils. The point at which the ligament fails to return to its original length is identified as the <strong>yielding point</strong>. Once this
+          threshold is detected, the system calculates the ideal force as <strong>10% below the yielding force</strong>, consistent with established
+          soft-tissue safety guidelines.
+        </p>
+
+        <p>
+          By repeatedly applying and releasing small controlled forces, the Balance Solver Method can determine the yielding point without
+          overstressing the ligament and without requiring continuous high-force loading. This enables a safe, personalised, and objective
+          measurement of each patient’s optimal tension level and provides a clear signal to the surgeon when the ideal force is reached.
+        </p>
+        <image-component tag="image" source="fyp images\balance solver method.jpg"
+          subtitle="Image 34: Balance Solver Method"
+          style="display:block; width:400px; height:auto; margin: 0 auto;">
+        </image-component>
+        <p>
+          Moving forward, we will test <strong>logic 1</strong> through our prototyping plan, but if some risks and limitations mentioned above arise, we might have to try prototyping with logic 2 as well. 
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <sl-divider></sl-divider>
+    <div>
+      <div id="section-header-5">
+        <h2>5. Prototypig Plan</h2>
+        <p>
+          Although we have ranked the different concepts and selected to go ahead with the mechanical jack concept, we are choosing to prototype the other solutions as well to see if another combination of functional requirements work better than the one we have selected. To evaluate the feasibility and performance of our proposed solutions, three concept designs are selected for initial prototyping. Each concept explores a different mechanical approach to achieving accurate and personalized soft tissue balancing during TKR, allowing us to compare their functionality, precision, and integration potential in a surgical setting. This section further discusses those designs, before talking about our plan for how we are going to go about prototyping.
+        </p>
+      </div>
+
+      <div id="sub-section-5-header-1">
+        <h2>5.1. Specifications</h2>
+        <p>
+          The prototype specifications are largely defined by the anatomical constraints of the knee joint. The device must operate within a narrow bone gap, typically only a few millimetres wide, while still being capable of applying forces of up to 250N. This combination of small dimensions and large required forces presents significant engineering challenges in terms of size, material strength, and sensor placement. Therefore, all design decisions must carefully balance precision, compactness, and structural durability. A few of these engineering constraints are mentioned in the image below.       
+        </p>
+        <image-component tag="image" source="fyp images\specs.png"
+          subtitle="Image 35: Prototyping Specifications"
+          style="display:block; width:300px; height:auto; margin: 0 auto;">
+        </image-component>
+      </div>
+
+      <div id="sub-section-5-header-2">
+        <h2>5.2. Design 1: Mechanical Jack with Screw</h2>
+        <p>
+          The first concept to be prototyped employs a mechanical jack integrated with a lead-screw system to generate a force–displacement curve and identify the ligament’s “ideal force.” The lead screw enables precise control, where each rotation corresponds to a defined change in the joint gap, ensuring consistent and reproducible displacement measurements. The jack applies a smooth, evenly distributed force across the joint, preventing sudden jumps or uneven loading. Together, this setup allows accurate correlation between applied force and displacement, forming the basis for a reliable and repeatable force–displacement curve.
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\concept 3.jpg"
+            subtitle="Image 36: Screw Jack System"
+            style="display:block; width:400px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\con3.jpg"
+            subtitle="Image 37: Concept 1 in the Knee"
+            style="display:block; width:530px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <p>
+          The below images are some design inspirations that we have gathered from our patent search. Some of these devices are patented, but have not been commercialised. We hope to use them as inspiration for our device design. 
+        <p><em>(EP2138107B1 - Ligament Balancer - Google Patents, 2009)
+        (EP3801398B1 - Surgical Instrument for Knee Balancing - Google Patents, 2019)
+        (US11266512B2 - Surgical Apparatus to Support Installation of a Prosthetic Component and Method Therefore - Google Patents, 2019)
+        (US12213658B2 - Force-Indicating Retractor Device and Methods of Use - Google Patents, 2021)</em></p>
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\design inspo 5.png"
+            subtitle="Image 38: Thin Bone Shaped Plates"
+            style="display:block; width:600px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\design inspo 4.png"
+            subtitle="Image 39: Vernier Caliper Style Readings"
+            style="display:block; width:330px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\design inspo 1.png"
+            subtitle="Image 40: Screw Displacement Measurement"
+            style="display:block; width:200px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\design inspo 2.png"
+            subtitle="Image 41: Screw System"
+            style="display:block; width:200px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+      </div>
+
+      <div id="sub-section-5-header-3">
+        <h2>5.3. Design 2: Springs</h2>
+        <p>
+          The next design selected for early prototyping is a <strong>spring-based motorised mechanism </strong>that generates a force–displacement curve to determine the ligament’s “ideal force.” The system consists of two thin, bone-shaped plates that are gradually pushed apart by a motor, increasing the load applied to the joint. A<strong> force sensor</strong> positioned between the plate and bone surface records the applied force, while an<strong> infrared displacement sensor </strong>mounted outside the joint measures the separation between the plates. Together, these measurements allow real-time construction of the force–displacement curve. The images below illustrate the basic embodiment of this concept.
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\concept sketch 1.jpg"
+            subtitle="Image 42: Spring System"
+            style="display:block; width:410px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\concept sktch 1.jpg"
+            subtitle="Image 43: Concept 2 in the Knee"
+            style="display:block; width:380px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+      </div>
+
+      <div id="sub-section-5-header-4">
+        <h2>5.4. Design 3: Inflatables</h2>
+        <p>
+          Another proposed design explores the use of an <strong>inflatable actuator </strong>to generate controlled force within the knee joint. This concept also relies on the force–displacement curve to determine the “ideal force,” but replaces mechanical springs with a pressurised inflatable element. Since both the <strong>contact area </strong>of the inflatable and the <strong>internal pressure </strong>are known, the applied force can be calculated directly using F=P×A, allowing for precise and continuous force measurement.
+        </p>
+
+        <p>
+          Displacement will be captured using the same sensor-based approach as in other concepts, with the option of integrating a <strong>Vernier calliper-style mechanism</strong> if higher measurement accuracy is required. The embodiment below demonstrates how the inflatable component interfaces with the joint space to deliver smooth, uniform expansion while enabling real-time force–displacement data collection.
+        </p>
+        <div style="display: flex; gap: 20px; align-items: flex-start;">
+          <image-component tag="image" source="fyp images\concept sktch 2.jpg"
+            subtitle="Image 44: Inflatable System"
+            style="display:block; width:220px; height:auto; margin: 0 auto;">
+          </image-component>
+          <image-component tag="image" source="fyp images\concept sketch 2.jpg"
+            subtitle="Image 45: Concept 3 in the Knee"
+            style="display:block; width:440px; height:auto; margin: 0 auto;">
+          </image-component>
+        </div>
+      </div>
+
+      <div id="sub-section-5-header-5">
+        <h2>5.5. Testing Plan & Roadmap</h2>
+        <p>
+          Moving forward, after we make the different prototypes we also aim to create a testing environment. The testing plan is structured in four progressive stages to ensure accuracy, safety, and clinical validity of the device. It begins with<strong> bench top calibration</strong> to verify sensor accuracy and graph generation, followed by <strong>pig knee testing </strong>to assess physiological realism and tissue safety. The <strong>cadaveric trial </strong>stage focuses on validating reproducibility and surgeon feedback in realistic surgical conditions. Finally, a <strong>clinical pilot</strong> will evaluate usability, surgeon correlation, and postoperative outcomes, ensuring the system’s readiness for real-world application. The image below explains what we are testing, how we will validate the results, and what success of the prototype looks like.         
+        </p>
+        <image-component tag="image" source="fyp images\testing and validation.png"
+          subtitle="Image 46: Testing and Validation">
+        </image-component>
+        <br>
+        <br>
+        <p> The image below summarises the testing roadmap, giving details abot the objective, method, and key metrics of each testing stage.</p>
+        <image-component tag="image" source="fyp images\testing roadmap.png"
+          subtitle="Image 47: Testing Roadmap">
+        </image-component>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <sl-divider></sl-divider>
+    <div>
+      <div id="section-header-6">
+        <h3>6. Future Work</h3>
+        <p>
+          The next phase of our project focuses on moving from concept to validation. We will begin by developing prototypes to test the different design concepts and identify the most effective approach. Following this, we will conduct testing on pig knees to evaluate performance and safety in a realistic biological setting (according to the roadmap given above). Additionally, we will participate in the Duke University study trip to gain expert insights and feedback. Finally, our efforts will culminate in preparing for D-HIP Dazzle Day, where we will present our final prototype and findings.
+        </p>
+        <image-component tag="image" source="fyp images\future work.png"
+          subtitle="Image 48: Moving Forward"
+          style="display:block; width:700px; height:auto; margin: 0 auto;"></image-component>
       </div>
     </div>
 
     <!-- This is an example of how you can use the references component to create references -->
     <div id="references" class="references">
       <sl-divider></sl-divider>
-      <h2>References</h2>
+      <h3>References</h3>
       <ul>
         <li>
-          Brody, J. E. (2007, December 11). Mental reserves keep brain agile. The New York Times. Retrieved from
-          http://www.dowjones.com/factiva/
+          Bourne, R. B., Chesworth, B. M., Davis, A. M., Mahomed, N. N., & Charron, K. D. J. (2010). 
+          Patient satisfaction after total knee arthroplasty: who is satisfied and who is not? 
+          Clinical Orthopaedics and Related Research, 468(1), 57–63. https://doi.org/10.1007/s11999-009-1119-9
         </li>
+
         <li>
-          Chamberlin, J., Novotney, A., Packard, E., & Price, M. (2008, May). Enhancing worker well-being: Occupational
-          health psychologists convene to share their research on work, stress, and health. Monitor on Psychology,
-          39(5), 26-29.
+          Buhary, M., Choh, A., Andy, S., Chan, H. Y., Howe, T. S., Lie, D., Joyce, B., & Chang, P. (2019). 
+          Strain behavior of native and reconstructed medial patellofemoral ligaments during dynamic knee flexion ‐ 
+          a cadaveric study. Journal of Experimental Orthopaedics, 6(1), 31–31. 
+          https://doi.org/10.1186/s40634-019-0195-3
         </li>
+
         <li>
-          Jones, T. J., & Fields, N. (2003). Emotional quotient and personality. E-Journal of Applied Psychology, 2(2),
-          38-45. Retrieved from http://ejournalappliedpsyc/index.php/ejap
+          Chantarapanich Beng, N., Deng, N., Chernchujit, B., Kriskrai, S., & Deng. (2009). 
+          A Finite Element Study of Stress Distributions in Normal and Osteoarthritic Knee Joints. 
+          J Med Assoc Thai, 92. 
+          http://www.jmatonline.com/PDF/92-S6-PB-S97-S103.pdf
+        </li>
+
+        <li>
+          Corbett, J. A., Chen, D. B., Gallie, P., Leong, A., Mulford, J. S., Penn, D., Wood, J. A., & MacDessi, S. J. (2025). 
+          How reliable are surgeons at assessing soft-tissue laxities in robotic arm-assisted total knee arthroplasty? 
+          Bone & Joint Open, 6(9), 1044–1052. https://doi.org/10.1302/2633-1462.69.bjo-2025-0073.r1
+        </li>
+
+        <li>
+          Deshpande, B. R., Katz, J. N., Solomon, D. H., Yelin, E. H., Hunter, D. J., Messier, S. P., Suter, L. G., & Losina, E. (2016). 
+          Number of Persons With Symptomatic Knee Osteoarthritis in the US: Impact of Race and Ethnicity, Age, Sex, and Obesity. 
+          Arthritis Care & Research, 68(12), 1743–1750. https://doi.org/10.1002/acr.22897
+        </li>
+
+        <li>
+          Dhrupad Ponnamaneni, Mangal, R., Gould, M., Stead, T., & Ganti, L. (2024). 
+          Factors Influencing Patient Satisfaction with Total Joint Replacement Surgery. Orthopedic Reviews, 16. 
+          https://doi.org/10.52965/001c.92646
+        </li>
+
+        <li>
+          EP2138107B1 - Ligament balancer - Google Patents. (2009, June 19). 
+          https://patents.google.com/patent/EP2138107B1/en?q=(ligament+tensor)&oq=ligament+tensor
+        </li>
+
+        <li>
+          EP3801398B1 - Surgical instrument for knee balancing - Google Patents. (2019, May 23). 
+          https://patents.google.com/patent/EP3801398B1/en?q=(ligament+tensor)&oq=ligament+tensor&page=8
+        </li>
+
+        <li>
+          Leung, Y., Ma, S., Noviani, M., Wong, S. B. ‐S., Lee, C. M., Soh, I. A. ‐L., & Thumboo, J. (2018). 
+          Validation of screening questionnaires for evaluation of knee osteoarthritis prevalence in the general population of Singapore. 
+          International Journal of Rheumatic Diseases, 21(3), 629–638. https://doi.org/10.1111/1756-185X.13252
+        </li>
+
+        <li>
+          MBA, B. N., MD. (2019, October 15). Knee Anatomy | Orthopedic Knee Expert | Manhattan, New York City, NY. 
+          https://manhattansportsdoc.com/knee-anatomy-orthopedic-knee-expert-manhattan-new-york-city-ny/
+        </li>
+
+        <li>
+          Park, C. H., & Song, S. J. (2021). 
+          Sensor-Assisted Total Knee Arthroplasty: A Narrative Review. 
+          Clinics in Orthopedic Surgery, 13(1), 1. https://doi.org/10.4055/cios20034
+        </li>
+
+        <li>
+          Readioff, R., Geraghty, B., Elsheikh, A., & Comerford, E. (2020). 
+          Viscoelastic characteristics of the canine cranial cruciate ligament complex at slow strain rates. 
+          PeerJ, 8, e10635. https://doi.org/10.7717/peerj.10635
+        </li>
+
+        <li>
+          Santana, G., Howell, S. M., & Hull, M. L. (2024). 
+          The peak force to push a trial tibial insert into position cannot be used to select the correct thickness in total knee arthroplasty. 
+          Archives of Orthopaedic and Trauma Surgery, 144(6), 2767–2773. https://doi.org/10.1007/s00402-024-05313-6
+        </li>
+
+        <li>
+          Schmerler, J., Bergstein, V. E., Kagabo, W., Khanuja, H. S., Oni, J. K., & Hegde, V. (2025). 
+          Access to robot-assisted total knee arthroplasty varies significantly by race/ethnicity. 
+          Knee Surgery & Related Research, 37(1). https://doi.org/10.1186/s43019-024-00255-0
+        </li>
+
+        <li>
+          Sun, C., Zhao, Z., Lee, W. G., Ma, Q., Zhang, X., Zhu, J., & Cai, X. (2022). 
+          Sensor-guided gap balance versus manual gap balance in primary total knee arthroplasty: a meta-analysis. 
+          Journal of Orthopaedic Surgery and Research, 17(1). https://doi.org/10.1186/s13018-022-03129-x
+        </li>
+
+        <li>
+          The Global Knee Market: Insights and Projections for 2024 and Beyond - Life Science Intelligence. (2024). 
+          https://www.lifesciencemarketresearch.com/insights/the-global-knee-market-insights-and-projections-for-2024-and-beyond
+        </li>
+
+        <li>
+          Total Knee Replacement (TKR): A Patient Centric Approach to Improving Length of Stay. (2023). 
+          Journal of Patient Safety and Healthcare Quality. https://doi.org/10.59439/v02n02a01
+        </li>
+
+        <li>
+          Total Knee Replacement - OrthoInfo - AAOS. (2023). 
+          https://orthoinfo.aaos.org/en/treatment/total-knee-replacement/?utm_source=chatgpt.com
+        </li>
+
+        <li>
+          US11266512B2 - Surgical apparatus to support installation of a prosthetic component and method therefore - Google Patents. (2019, May 16). 
+          https://patents.google.com/patent/US11266512B2/en?q=(ligament+tensor)&oq=ligament+tensor&page=9
+        </li>
+
+        <li>
+          US12213658B2 - Force-indicating retractor device and methods of use - Google Patents. (2021, May 7). 
+          https://patents.google.com/patent/US12213658B2/en?q=(ligament+tensor)&oq=ligament+tensor&page=1
+        </li>
+
+        <li>
+          Völlner, F., Weber, T., Weber, M., Renkawitz, T., Dendorfer, S., Grifka, J., & Craiovan, B. (2019). 
+          A simple method for determining ligament stiffness during total knee arthroplasty in vivo. 
+          Scientific Reports, 9. https://doi.org/10.1038/s41598-019-41732-x
+        </li>
+
+        <li>
+          World Health Organization. (2023). Osteoarthritis. 
+          https://www.who.int/news-room/fact-sheets/detail/osteoarthritis
+        </li>
+
+        <li>
+          Wu, X.-D., Zhang, Y., Ma, Z., Wang, Q., Shao, H., Yang, D., & Zhou, Y. (2025). 
+          From empirical to analytical: Soft-tissue tension gauging in total knee arthroplasty. 
+          Knee Surgery and Related Research, 37(1), 40–40. https://doi.org/10.1186/s43019-025-00287-0
         </li>
       </ul>
+    </div>
+    <div id="appendices" class="Appendices">
+      <sl-divider></sl-divider>
+      <h3>Appendices</h3>
+      <p> Need Quantification Table:</p>
+      <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
+        <tr>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Category</th>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Details</th>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Patient Subpopulation</td>
+            <td style="border:1px solid #000; padding:8px;">Patients dissatisfied post primary TKR (20% of 3.6 million = 720,000)</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Importance of problem in disease management</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Proper knee alignment ensures a pain-free life and retention of quality of life.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">So what</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Improved alignment → fewer revisions, reduced physiotherapy, less employment loss → lower healthcare and societal costs + better quality of life.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Pain points in the care journey</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Subjective knee balancing; range of possible knee alignments.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Proportion of total spend</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Therapy, outpatient expenses, and revision surgery costs can be reduced by preventing the need for additional interventions.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Cost influence on other parts of care chain</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Better alignment → improved postoperative function → less need for physiotherapy, pain specialists, and follow-up care.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Is it worth solving?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Definitely</li>
+                    <li>Seems like it</li>
+                    <li>Not Worth It</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Is the patient sub-population big enough?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Significant</li>
+                    <li>Moderate</li>
+                    <li>Insignificant</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Overall rating</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Green</li>
+                    <li>Yellow</li>
+                    <li>Red</li>
+                </ul>
+            </td>
+        </tr>
+      </table>
+      <br>
+      <p> Clinical Impact Analysis</p>
+      <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
+        <tr>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Category</th>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Details</th>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Size of population</td>
+            <td style="border:1px solid #000; padding:8px;">20% of 3.6 million</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Average cost per patient</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Revision surgery: $10–40k<br>
+                Physiotherapy sessions: ~$1200
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Total possible market size</td>
+            <td style="border:1px solid #000; padding:8px;">$864 million (assuming 20% incidence × $1200)</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Who bears the cost?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Government, insurance companies, patients.  
+                Costs are significant enough to motivate payer interest in reducing dissatisfaction rates.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Customer desire & required improvement</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Increase TKR satisfaction from 80% → 90%; improve functional outcomes and PROMs.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Is it worth solving?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Definitely</li>
+                    <li>Seems like it</li>
+                    <li>Not Worth It</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Is the population big enough?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Significant</li>
+                    <li>Moderate</li>
+                    <li>Insignificant</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Overall rating</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Green</li>
+                    <li>Yellow</li>
+                    <li>Red</li>
+                </ul>
+            </td>
+        </tr>
+      </table>
+      <br>
+      <p> Disease State Analysis:</p>
+      <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
+        <tr>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Category</th>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Details</th>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Typical patient demographics</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Adults aged 55–75 years old
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Incidence</td>
+            <td style="border:1px solid #000; padding:8px;">
+                SG: 200 per 100,000 annually<br>
+                Worldwide: 250 per 100,000 annually
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Prevalence</td>
+            <td style="border:1px solid #000; padding:8px;">
+                SG: 10% of adults over 60<br>
+                Worldwide: 9.6% of adults over 45
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Common co-morbidities</td>
+            <td style="border:1px solid #000; padding:8px;">
+                High BMI, diabetes, cholesterol issues, hypertension,<br>
+                reduced mobility (and associated depression),<br>
+                OA in other joints, smoking
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Impact on patients & caregivers</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Impaired mobility; reduced independence; reduced iADLs;<br>
+                increased financial burden and caregiver strain
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Behavioural / societal barriers</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Fear of surgery; long recovery period
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Pathophysiology</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Overuse → degeneration of meniscus, cartilage, bone →<br>
+                misalignment, pain, knee instability
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Overall economic impact</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Worldwide (knee OA): $100–200 billion USD<br>
+                SG (knee OA): $0.5–1 billion USD
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">How common is the problem?</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Occurs frequently</li>
+                    <li>Common</li>
+                    <li>Uncommon</li>
+                    <li>Very rare</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Impact to patients</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Life changing</li>
+                    <li>Significant effect</li>
+                    <li>Moderate effect</li>
+                    <li>Minimal or no effect</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Behavioural / societal factors</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Commonly accepted</li>
+                    <li>Some hesitation but generally accepted</li>
+                    <li>Social Taboo</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Pathophysiology understanding</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Extremely well researched</li>
+                    <li>Some key questions remain</li>
+                    <li>Many knowledge gaps exist</li>
+                    <li>Virtually unexplored</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Overall rating</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li>Green</li>
+                    <li>Yellow</li>
+                    <li>Red</li>
+                </ul>
+            </td>
+        </tr>
+      </table>
+      <br>
+      <p> Patient Journey Analysis:</p>
+      <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
+        <tr>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Category</th>
+            <th style="border:1px solid #000; padding:8px; background:#f2f2f2;">Details</th>
+        </tr>
+
+        <!-- Patient Journey -->
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Map of the Typical Patient Journey</td>
+            <td style="border:1px solid #000; padding:8px;">
+                <ul style="margin:0; padding-left:20px;">
+                    <li><strong>Trigger:</strong> Knee pain, stiffness, swelling due to OA, injury, degeneration.</li>
+                    <li><strong>GP & Primary Care:</strong> Physical exam, ROM assessment, referral for X-ray/MRI.</li>
+                    <li><strong>Non-Surgical Phase:</strong> Months–years of physiotherapy, strengthening, analgesics, walking aids.</li>
+                    <li><strong>Surgical Consultation:</strong> Imaging review, discussion of options, risk–benefit evaluation.</li>
+                    <li><strong>Pre-Operative Prep:</strong> Medical clearance from required specialists.</li>
+                    <li><strong>Hospital Stay & Surgery:</strong> 1-hour surgery, 1-night stay, rehab begins same day.</li>
+                    <li><strong>Rehabilitation Phase:</strong> ~3 months of physiotherapy.</li>
+                    <li><strong>Follow-up:</strong> Home visits for 6 weeks (ERAS team), surgeon follow-up at 6 weeks.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <!-- Main patient concerns -->
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Main Patient Concerns</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Anxiety, fear of dependence, financial concerns, fear of death.<br>
+                Regaining mobility, prolonged rehab duration, caregiver availability.<br>
+                Financial coverage: Mostly covered by Medisave for target demographic.
+            </td>
+        </tr>
+
+        <!-- Focus area -->
+        <tr>
+            <td style="border:1px solid #000; padding:8px;">Focus Area</td>
+            <td style="border:1px solid #000; padding:8px;">
+                Treatment Phase – Our solution aims to improve implant outcomes by addressing soft-tissue tensioning.
+            </td>
+        </tr>
+
+        <!-- Upstream effects -->
+        <tr>
+            <td style="border:1px solid=#000; padding:8px;">Upstream Effects (Before Surgery)</td>
+            <td style="border:1px solid#000; padding:8px;">
+                <strong>Medical & Physiological:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Cartilage loss → bone-on-bone contact</li>
+                    <li>Chronic inflammation, stiffness, muscle weakness</li>
+                </ul>
+                <strong>Functional Impact:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Reduced mobility, difficulty with stairs & walking</li>
+                    <li>Pain affecting sleep, work, daily activities</li>
+                    <li>Activity avoidance → deconditioning & weight gain</li>
+                </ul>
+                <strong>Psychological:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Frustration, loss of independence, anxiety</li>
+                </ul>
+                <strong>Societal & Economic:</strong>
+                <ul style="margin:5px 0 0 20px;">
+                    <li>More GP & specialist visits</li>
+                    <li>Repeated physiotherapy or injections</li>
+                    <li>Work absenteeism, rising healthcare costs</li>
+                </ul>
+            </td>
+        </tr>
+
+        <!-- Downstream effects -->
+        <tr>
+            <td style="border:1px solid= #000; padding:8px;">Downstream Effects (After Surgery)</td>
+            <td style="border:1px solid#000; padding:8px;">
+                <strong>Positive Outcomes:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Pain relief, improved mobility & daily function</li>
+                    <li>Return to activities, reduced pain medication</li>
+                </ul>
+                <strong>Potential Risks:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Infection, DVT, implant failure</li>
+                    <li>Possible revision surgery</li>
+                    <li>Persistent stiffness or pain</li>
+                </ul>
+                <strong>System-Level Effects:</strong>
+                <ul style="margin:5px 0 10px 20px;">
+                    <li>Operating theatre & bed utilisation</li>
+                    <li>Post-op physiotherapy needs</li>
+                    <li>Long-term reduction in knee pain consultations</li>
+                </ul>
+                <strong>Societal & Economic:</strong>
+                <ul style="margin:5px 0 0 20px;">
+                    <li>Better return to work/community life</li>
+                    <li>Lower disability-related costs</li>
+                    <li>Reduced long-term healthcare burden</li>
+                </ul>
+            </td>
+        </tr>
+      </table>
+      <br>
+      <p> Stakeholder Ranking:</p>
+      <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: left;">
+        <thead style="background-color: #f2f2f2; font-weight: bold;">
+            <tr>
+                <th>Stakeholder</th>
+                <th>Importance <br>(Influencer = 1, Key Driver = 2, Customer = 3)</th>
+                <th>Current Status <br>(-2 to +2)</th>
+                <th>Score <br>(Importance × Status)</th>
+                <th>Rationale</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Physician (Surgeon)</td>
+                <td>2 / 3<br>Key Driver & Main Consumer</td>
+                <td>Mixed — Some Evangelists (+2), few Detractors (-1)</td>
+                <td>4 to 6</td>
+                <td>Core champions who drive adoption. Group is polarised; need to leverage supporters and educate skeptics.</td>
+            </tr>
+
+            <tr>
+                <td>Patient (Consumer)</td>
+                <td>3<br>Secondary Consumer</td>
+                <td>0 (Neutral)</td>
+                <td>0</td>
+                <td>They benefit most, but adoption depends on awareness and availability of public information.</td>
+            </tr>
+
+            <tr>
+                <td>Payer</td>
+                <td>1<br>Influencer</td>
+                <td>0 (Neutral)</td>
+                <td>0</td>
+                <td>Device cost is small relative to TKR cost; payers remain indifferent.</td>
+            </tr>
+
+            <tr>
+                <td>Provider</td>
+                <td>1<br>Influencer</td>
+                <td>1 (Supporter)</td>
+                <td>1</td>
+                <td>Procurement unlikely to object unless the device becomes extremely expensive.</td>
+            </tr>
+
+            <tr>
+                <td>Policymaker</td>
+                <td>1<br>Influencer</td>
+                <td>0 (Neutral)</td>
+                <td>0</td>
+                <td>Will only become active once strong clinical evidence suggests population-level benefits.</td>
+            </tr>
+        </tbody>
+      </table>
+      <br>
+      <p> Needs Criteria in order of Importance:</p>
+      <table border="1" cellpadding="10" cellspacing="0"
+          style="border-collapse: collapse; width: 100%; text-align: left;">
+        <thead style="background-color:#f2f2f2; font-weight:bold;">
+            <tr>
+                <th>Benefit / Need (Why do customers buy/use them?)</th>
+                <th>Importance</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Needs to give reproducible, measurable, and personalised force during joint gap assessment</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Needs to give feedback based on ligament tension</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Needs to measure displacement of ligaments</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>Need to allow for reliable TKR based on force measurement</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>Needs to be accessible and integrated into all workflows</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Need to be simple to use</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>Need to add less than 10 minutes to existing TKR workflow</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>Need to be ergonomic</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>Need to be cheap</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>Needs to be integrated into robotic platform</td>
+                <td>1</td>
+            </tr>
+
+        </tbody>
+      </table>
     </div>
   </div>
 
